@@ -1,8 +1,10 @@
+import 'package:auto_expense_tracker/screens/SignUpScreen.dart';
 import 'package:flutter/material.dart';
 import 'package:auto_expense_tracker/screens/HomeScreen.dart';
 import 'package:auto_expense_tracker/screens/AnalysisScreen.dart';
 import 'package:auto_expense_tracker/screens/ReminderScreen.dart';
 import 'package:auto_expense_tracker/screens/SettingsScreen.dart';
+import 'package:auto_expense_tracker/screens/LoginScreen.dart';
 void main() {
   runApp(MyApp());
 }
@@ -30,6 +32,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
   int _selectedIndex = 0;
 
   final List<Widget> _pages = [
+    // HomeScreen(),
     HomeScreen(),
     AnalysisScreen(),
     ReminderScreen(),
