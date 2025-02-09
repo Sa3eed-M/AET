@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sprint1/screens/OnBoarding_2.dart';
+import 'package:auto_expense_tracker/screens/OnBoarding_2.dart';
 
 class Onboarding1 extends StatelessWidget {
   const Onboarding1({super.key});
