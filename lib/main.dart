@@ -1,9 +1,9 @@
+import 'package:auto_expense_tracker/screens/BudgetScreen.dart';
 import 'package:auto_expense_tracker/screens/OnBoarding_1.dart';
 import 'package:auto_expense_tracker/screens/SignUpScreen.dart';
 import 'package:flutter/material.dart';
 import 'package:auto_expense_tracker/screens/HomeScreen.dart';
 import 'package:auto_expense_tracker/screens/AnalysisScreen.dart';
-import 'package:auto_expense_tracker/screens/ReminderScreen.dart';
 import 'package:auto_expense_tracker/screens/SettingsScreen.dart';
 import 'package:auto_expense_tracker/screens/LoginScreen.dart';
 void main() {
@@ -36,7 +36,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
     // HomeScreen(),
     HomeScreen(),
     AnalysisScreen(),
-    ReminderScreen(),
+    BudgetScreen(),
     SettingsScreen(),
   ];
 
